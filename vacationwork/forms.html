@@ -7,11 +7,13 @@
 </head>
 <body>
    <form >
-    <label for="datepicker"> This is datapicker</label>
+    <fieldset>
+        <legend>html dummy form</legend>
+        <label for="datepicker"> This is datapicker</label>
     <input type="date" id = datepicker>
     <br>
     <label for="selector"> choose any product</label>
-    <select name="Dishes" id="selector">
+    <select name="Dishes" multiple id="selector" >
 
        <option value="meggi"> Meggi</option>
        <option value="coke"> Coke</option>
@@ -24,6 +26,20 @@
     <textarea name="textarea" id="textlikho" placeholder="enter your experience"></textarea>
     <br>
     <button>my name is button </button>
+    <br>
+    <br>
+    
+
+  <input type="checkbox" name="language" id="Cpp" value ="C++">
+  <label for="Cpp"> c++</label><br>
+  <input type="checkbox" name="language" id="java" value="java">
+   <label for="java">java</label><br>
+   <input type="checkbox" name="language" id="python"value="python">
+   <label for="python"> python</label><br>
+
+  <button>submit</button>
+
+    </fieldset>
    </form>
 </body>
 </html>
