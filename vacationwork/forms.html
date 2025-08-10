@@ -6,40 +6,47 @@
     <title>Document</title>
 </head>
 <body>
-   <form >
-    <fieldset>
-        <legend>html dummy form</legend>
-        <label for="datepicker"> This is datapicker</label>
-    <input type="date" id = datepicker>
+ <form >
+    <label for="text"> Email</label>
     <br>
-    <label for="selector"> choose any product</label>
-    <select name="Dishes" multiple id="selector" >
 
-       <option value="meggi"> Meggi</option>
-       <option value="coke"> Coke</option>
-       <option value="kurkery"> kurkury</option>
-        
-    </select>
+   <input type="text" id = text placeholder="Example@gmail.com">
+<br>
+<br>
+   <label for="password"> Enter your password</label>
    <br>
+   <input type="password" id = password placeholder="Enter your password:">
+<br>
+<br>
+   <input type="checkbox" id = checkbox value = "Remember">
+   <label for="checkbox">Remember me</label>
+
+<br>
+<br>
+
+   <input type="radio"  id = radio1 name = gender  value ="Male">
+   <label for="radio1">Male</label>
    <br>
-     <label for="textlikho"> Your experience in dev</label>
-    <textarea name="textarea" id="textlikho" placeholder="enter your experience"></textarea>
-    <br>
-    <button>my name is button </button>
-    <br>
-    <br>
-    
+   <input type="radio"  id = radio2 name = gender value ="Female">
+   <label for="radio2">Female</label>
+   <br>
+   <input type="radio"  id = radio3 name = gender value ="prefer not to say">
+   <label for="radio3">Other</label>
 
-  <input type="checkbox" name="language" id="Cpp" value ="C++">
-  <label for="Cpp"> c++</label><br>
-  <input type="checkbox" name="language" id="java" value="java">
-   <label for="java">java</label><br>
-   <input type="checkbox" name="language" id="python"value="python">
-   <label for="python"> python</label><br>
+<br>
+<br>
+  <label for="file">upload</label> 
+<input type="File" id = file name = file  >
+<br>
+<br>
+<label for="pickdate"> Enter the date you submited this form:</label>
+ <input type="date" name="pickdate" id="pickdate">
 
-  <button>submit</button>
+   <button value="Submit">  Sign in</button>
 
-    </fieldset>
-   </form>
+   <br>
+   <label for="image1"> </label>
+ <input type="image" name="image1" id="image1" alt = " koch bhi nhi hai yrr ya" src="opps.png" width="100px"  height="100px">
+ </form>
 </body>
 </html>
